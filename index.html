@@ -2,80 +2,54 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Lokesh's Personal Site</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+  <meta charset="utf-8">
+  <title>Lokesh - a web developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./favicon.ico" </head>
 
 <body>
-    <table cellspacing="20">
-        <td>
-            <img id="profilePic" src="images/profile.jpeg" alt="profile photo" />
-        </td>
-        <td>
-            <h1>Nagalokesh Kanumoori</h1>
-            <p><em>Founder and CTO of <strong><a href="#">L.K Group</a></strong></em></p>
-            <p>I'm Android and Web Developer. I love coffee.</p>
-        </td>
-    </table>
+  <div id="top-container">
+    <img id="top-cloud" src="./images/cloud.png" />
+    <h1>I'm Nagalokesh.</h1>
+    <h2>a <span class="pro">pro</span>grammer</h2>
+    <img id="bottom-cloud" src="./images/cloud.png" />
+    <img src="./images/mountain.png"/>
+  </div>
+  <div id="middle-container">
+    <div class="profile">
+      <img class="avatar" src="./images/profile.jpeg" alt="profile">
+      <h2>Hello.</h2>
+      <p class="intro">I'm an MERN Stack and Ruby on Rails developer but, more focussed on backend projects</p>
+    </div>
     <hr>
-    <h3>Skills</h3>
-    <table>
-        <tr>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>JavaScript</td>
-                        <td>⭐️⭐️⭐️⭐️⭐️</td>
-                    </tr>
-                    <tr>
-                        <td>Python</td>
-                        <td>⭐️⭐️⭐️</td>
-                    </tr>
-                    <tr>
-                        <td>Ruby</td>
-                        <td>⭐️⭐️⭐️⭐️</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>NodeJs</td>
-                        <td>⭐️⭐️⭐️⭐️⭐️</td>
-                    </tr>
-                    <tr>
-                        <td>Express</td>
-                        <td>⭐️⭐️⭐️⭐️⭐️</td>
-                    </tr>
-                    <tr>
-                        <td>Rails</td>
-                        <td>⭐️⭐️⭐️⭐️</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skillImg node" src="./images/nodejs.png" alt="NodeJs">
+        <h3>NodeJs</h3>
+        <p>Worked on multiple projects with NodeJs</p>
+      </div>
+      <div class="skill-row">
+        <img class="skillImg ruby" src="./images/ruby.png" alt="ruby">
+        <h3>Ruby</h3>
+        <p>Worked on multiple projects in ruby on rails</p>
+      </div>
+    </div>
     <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <th>period</th>
-            <th>company</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2017</td>
-                <td>Bluefrog mobile Technologies</td>
-            </tr>
-            <tr>
-                <td>2017 - present</td>
-                <td>Innominds Software Pvt.Ltd</td>
-            </tr>
-        </tbody>
-    </table>
-    <a href="languages.html">Langauages and Frameworks</h3></a>
-    <a href="contact.html">Contact Me</h3></a>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <a class="btn" href="mailto:lokesh.kanumoori@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+  
+  
+  <div id="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/lokesh-kanumoori">LinkedIn</a>
+    <p class="copyright">© 2021 Nagalokesh Kanumoori.</p>
+  </div>  
 </body>
 
 </html>
